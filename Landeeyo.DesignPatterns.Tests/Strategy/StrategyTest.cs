@@ -31,10 +31,10 @@ namespace Landeeyo.DesignPatterns.Tests.Strategy
         public void ConcreteStrategySubtractTest()
         {
             //arrange
-            var a = 2;
-            var b = 2;
-            var properResult = 0;
-            IStrategy strategy = new Add();
+            var a = 128;
+            var b = 64;
+            var properResult = 64;
+            IStrategy strategy = new Subtract();
             StrategyContext context = new StrategyContext(strategy);
 
             //act
@@ -48,10 +48,10 @@ namespace Landeeyo.DesignPatterns.Tests.Strategy
         public void ConcreteStrategyMultiplyTest()
         {
             //arrange
-            var a = 2;
-            var b = 2;
-            var properResult = 4;
-            IStrategy strategy = new Add();
+            var a = 8;
+            var b = 3;
+            var properResult = 24;
+            IStrategy strategy = new Multiply();
             StrategyContext context = new StrategyContext(strategy);
 
             //act

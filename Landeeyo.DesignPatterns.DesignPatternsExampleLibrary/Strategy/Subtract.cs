@@ -6,7 +6,7 @@ namespace Landeeyo.DesignPatterns.DesignPatternsExampleLibrary.Strategy
     {
         public double Execute(double a, double b)
         {
-            throw new NotImplementedException();
+            return a - b;
         }
     }
 }
