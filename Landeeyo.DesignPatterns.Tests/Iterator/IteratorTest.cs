@@ -14,10 +14,10 @@ namespace Landeeyo.DesignPatterns.Tests.Iterator
         public void ReverseIteratorTest()
         {
             //arrange
-            IIterator iterator = new ReverseListIterator();
             List<int> originalList = new List<int>(5) { 1, 2, 3, 4, 5 };
+            IIterator iterator = new ReverseListIterator(originalList);
             List<int> iteratedList = new List<int>(5);
-            List<int> expectedList = new List<int>(5) { 5, 4, 2, 2, 1 };
+            List<int> expectedList = new List<int>(5) { 5, 4, 3, 2, 1 };
 
             //act
             for (iterator.First(); !iterator.IsDone; iterator.Next())
