@@ -7,19 +7,25 @@ namespace Landeeyo.DesignPatterns.Tests.Builder
     public class BuilderTest
     {
         [Test]
-        public void ConnectionBuilderTest()
+        public void CarBuilderTest()
         {
             //arrange
-            Connection expectedResult =
-                new Connection()
+            Car expectedResult =
+                new Car()
                 {
-                    Address = "google.com",
-                    Port = 80,
-                    Type = ConnectionType.TCP
+                    FuelType = Fuel.Solar,
+                    MaxSpeed = 201,
+                    SeatCount = 2
                 };
-            Connection result = null;
+            Car result = null;
 
             //act
+            
+            var builder = new TeslaBuilder();
+            builder.SetFuel();
+            builder.SetMaxSpeed();
+            builder.SetSeatCount();
+            result = builder.GetCar;
 
             //assert
             Assert.AreEqual(expectedResult, result);

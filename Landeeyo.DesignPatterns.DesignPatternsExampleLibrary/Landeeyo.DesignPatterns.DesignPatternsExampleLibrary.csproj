@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Builder\Connection.cs" />
+    <Compile Include="Builder\Car.cs" />
+    <Compile Include="Builder\ICarBuilder.cs" />
+    <Compile Include="Builder\TeslaBuilder.cs" />
     <Compile Include="Iterator\IIterator.cs" />
     <Compile Include="Iterator\ReverseListIterator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
