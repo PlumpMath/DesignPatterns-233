@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
-  <TopNode>[0-1008]C:\Users\aleph\Documents\GitHub\DesignPatterns\Landeeyo.DesignPatterns.Tests\bin\Debug\Landeeyo.DesignPatterns.Tests.dll</TopNode>
-  <SelectedNode>[0-1008]C:\Users\aleph\Documents\GitHub\DesignPatterns\Landeeyo.DesignPatterns.Tests\bin\Debug\Landeeyo.DesignPatterns.Tests.dll</SelectedNode>
+  <TopNode>[0-1010]C:\Users\aleph\Documents\GitHub\DesignPatterns\Landeeyo.DesignPatterns.Tests\bin\Debug\Landeeyo.DesignPatterns.Tests.dll</TopNode>
+  <SelectedNode>[0-1009]Landeeyo.DesignPatterns.Tests.Builder.BuilderTest.CarBuilderTest</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
-    <Node UniqueName="[0-1008]C:\Users\aleph\Documents\GitHub\DesignPatterns\Landeeyo.DesignPatterns.Tests\bin\Debug\Landeeyo.DesignPatterns.Tests.dll" Expanded="true" />
-    <Node UniqueName="[0-1009]Landeeyo" Expanded="true" />
-    <Node UniqueName="[0-1010]Landeeyo.DesignPatterns" Expanded="true" />
-    <Node UniqueName="[0-1011]Landeeyo.DesignPatterns.Tests" Expanded="true" />
+    <Node UniqueName="[0-1010]C:\Users\aleph\Documents\GitHub\DesignPatterns\Landeeyo.DesignPatterns.Tests\bin\Debug\Landeeyo.DesignPatterns.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1011]Landeeyo" Expanded="true" />
+    <Node UniqueName="[0-1012]Landeeyo.DesignPatterns" Expanded="true" />
+    <Node UniqueName="[0-1013]Landeeyo.DesignPatterns.Tests" Expanded="true" />
+    <Node UniqueName="[0-1017]Landeeyo.DesignPatterns.Tests.Builder" Expanded="true" />
+    <Node UniqueName="[0-1008]Landeeyo.DesignPatterns.Tests.Builder.BuilderTest" Expanded="true" />
     <Node UniqueName="[0-1014]Landeeyo.DesignPatterns.Tests.Iterator" Expanded="true" />
-    <Node UniqueName="[0-1006]Landeeyo.DesignPatterns.Tests.Iterator.IteratorTest" Expanded="true" />
-    <Node UniqueName="[0-1013]Landeeyo.DesignPatterns.Tests.Singleton" Expanded="true" />
-    <Node UniqueName="[0-1004]Landeeyo.DesignPatterns.Tests.Singleton.SingletonTest" Expanded="true" />
-    <Node UniqueName="[0-1012]Landeeyo.DesignPatterns.Tests.Strategy" Expanded="true" />
-    <Node UniqueName="[0-1000]Landeeyo.DesignPatterns.Tests.Strategy.StrategyTest" Expanded="true" />
+    <Node UniqueName="[0-1000]Landeeyo.DesignPatterns.Tests.Iterator.IteratorTest" Expanded="true" />
+    <Node UniqueName="[0-1016]Landeeyo.DesignPatterns.Tests.Singleton" Expanded="true" />
+    <Node UniqueName="[0-1006]Landeeyo.DesignPatterns.Tests.Singleton.SingletonTest" Expanded="true" />
+    <Node UniqueName="[0-1015]Landeeyo.DesignPatterns.Tests.Strategy" Expanded="true" />
+    <Node UniqueName="[0-1002]Landeeyo.DesignPatterns.Tests.Strategy.StrategyTest" Expanded="true" />
   </Nodes>
 </VisualState>
