@@ -9,7 +9,7 @@ namespace Landeeyo.DesignPatterns.DesignPatternsExampleLibrary.AbstractFactory
     {
         public string MethodB()
         {
-            throw new NotImplementedException();
+            return "fAmB";
         }
     }
 }
