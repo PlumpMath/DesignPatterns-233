@@ -40,8 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory\Client.cs" />
-    <Compile Include="AbstractFactory\DAOFactory.cs" />
+    <Compile Include="AbstractFactory\ClassAB.cs" />
+    <Compile Include="AbstractFactory\ClassBA.cs" />
+    <Compile Include="AbstractFactory\ClassBB.cs" />
+    <Compile Include="AbstractFactory\ConcreteFactoryA.cs" />
+    <Compile Include="AbstractFactory\ConcreteFactoryB.cs" />
+    <Compile Include="AbstractFactory\IAbstractFactory.cs" />
+    <Compile Include="AbstractFactory\IClassA.cs" />
+    <Compile Include="AbstractFactory\IClassB.cs" />
+    <Compile Include="AbstractFactory\ClassAA.cs" />
     <Compile Include="Builder\Car.cs" />
     <Compile Include="Builder\ICarBuilder.cs" />
     <Compile Include="Builder\TeslaBuilder.cs" />
